@@ -5,6 +5,18 @@ POST http://localhost:4000/user/
 content-type: application/json
 
 {
-    "email": "jcmcf20134@gmail.com",
+    "email": "jcmcf201345@gmail.com",
+    "password": "admin1234"
+}
+
+
+
+###
+
+POST https://udemy-nodejs-backend.sxl9hr.easypanel.host/user/
+content-type: application/json
+
+{
+    "email": "jcmcf201345@gmail.com",
     "password": "admin1234"
 }

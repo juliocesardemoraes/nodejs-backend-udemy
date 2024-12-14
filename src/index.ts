@@ -25,6 +25,10 @@ AppDataSource.initialize()
     console.error("Error during Data Source initialization:", err);
   });
 
+app.get("/", (req, res) => {
+  res.status(200).send({ working: true });
+});
+
 app.use("/user", userRouter);
 
 app.listen("4000");
