@@ -32,5 +32,3 @@ app.get("/", (req, res) => {
 app.use("/user", userRouter);
 
 app.listen("4000");
-
-export default app;
